@@ -1,0 +1,53 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #eef2f3;
+  direction: rtl;
+  padding: 40px;
+  margin: 0;
+  color: #222;
+  line-height: 1.6;
+}
+header, footer {
+  background-color: #78a6ac;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+main {
+  padding: 20px;
+}
+
+
+
+section {
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #000000;
+}
